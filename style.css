@@ -1,0 +1,114 @@
+/* font family  */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap");
+
+:root {
+  --primary-color: #94ba92;
+  --color-title: white;
+}
+
+/* General */
+
+* {
+  line-height: 1.5;
+  box-sizing: border-box;
+  text-align: center;
+  font-family: Monstserrat, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+h2 {
+  line-height: 3;
+  font-size: 2rem;
+  text-decoration: underline overline var(--primary-color) wavy;
+  text-underline-offset: 0.5rem;
+}
+
+/* Nav */
+nav {
+  font-weight: 700;
+}
+
+nav ul {
+  font-weight: 700;
+  list-style: none;
+  padding-left: 0;
+
+  li {
+    display: inline-block;
+    padding-right: 0.5rem;
+  }
+}
+
+/* Buttom */
+button {
+  background-color: var(--primary-color);
+  border: solid transparent;
+  border-radius: 3rem;
+  box-shadow: 0.1rem 0.1rem 0.5rem;
+}
+
+/*  Header */
+
+header img {
+  width: 10rem;
+  border-radius: 50%;
+  border: solid var(--primary-color);
+}
+
+/* Section */
+
+p {
+  font-size: 0.7rem;
+}
+
+/* Section 1 */
+.section-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+#about-me {
+  grid-column: span 3;
+}
+
+section img {
+  width: 80%;
+  border-radius: 30%;
+}
+
+/* Section 2 */
+.section-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 0.2fr 1fr 1fr;
+}
+
+#skills {
+  grid-column: span 2;
+  padding: 0;
+}
+
+.projet-1 {
+  grid-row: span 2;
+}
+
+/* Section 3 */
+
+div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+}
+
+input {
+  width: 50%;
+
+  border: dotted var(--primary-color);
+}
+
+/* Footer */

@@ -3,31 +3,120 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
     <title>Portfolio | Mégane AUTHEMAYOU</title>
   </head>
   <body>
+    <nav>
+      <ul>
+        <li><a href="#about-me">About me</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact"> Contact</a></li>
+      </ul>
+    </nav>
     <header>
-      <nav>
-        <img src="#" alt="My avatar" />
-        <h1>Mégane AUTHEMAYOU</h1>
-        <ul>
-          <li><a href="#">About me</a></li>
-          <li><a href="#">Skills</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-      </nav>
+      <img src="./assets/woman_color_wild.webp" alt="my avatar" />
+      <h1>Mégane AUTHEMAYOU</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi quisquam
+        id excepturi neque, quibusdam exercitationem officia quaerat veniam,
+        temporibus saepe quo vitae hic praesentium distinctio velit repellendus
+        suscipit minus fugit. Lorem ipsum dolor sit amet, consectetur
+        adipisicing elit. Provident mollitia ex incidunt fugit doloremque
+        officiis reiciendis iusto cumque eos perspiciatis ad asperiores itaque
+        id, dignissimos consequuntur! Architecto omnis dolore delectus! Sint
+        dicta dolorem eos fugiat cumque maiores perferendis atque eveniet non.
+        Deserunt sapiente vel eveniet. Neque eius maxime inventore repudiandae
+        nisi, omnis enim assumenda impedit similique est totam veritatis dolore.
+        Ad aut eum, blanditiis iure quam officia! Dolorem ipsum sunt repellat
+        voluptatum voluptates! Eius aspernatur fugiat repudiandae ea ipsa, qui,
+        beatae dolorum veritatis repellendus harum a eligendi excepturi officiis
+        accusamus.
+      </p>
     </header>
     <main>
-      <section>
-        <h2>About me</h2>
+      <section class="section-1">
+        <h2 id="about-me">About me</h2>
+        <article>
+          <img
+            src="./assets/levé_de_soleil_montagnes.jpg"
+            alt="Soleil levant dans les montagnes"
+          />
+          <p>Ma randonnée nocturne la plus instagrammable</p>
+        </article>
+        <article>
+          <img src="./assets/kodak.jpg" alt="Dog allemandXBerger" />
+          <p>Ma meilleure bonne action du moment</p>
+        </article>
+        <article>
+          <img src="./assets/plants.jpg" alt="plants calathea fir three" />
+          <p>Mon addiction incomprise</p>
+        </article>
+      </section>
+      <section class="section-2">
+        <h2 id="skills">Skills</h2>
+        <article class="projet-1">
+          <h3>Projet 1</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam odit
+            iste quae eos velit? Similique earum iusto porro impedit repellat
+            veritatis dignissimos fugit ab, nam vero id vitae tenetur dolorum?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem
+            consectetur velit nostrum quod inventore suscipit illum reiciendis,
+            eius a iste! Reiciendis est inventore impedit alias dicta esse,
+            eveniet facere dolore. Eius eos fugiat a laborum perspiciatis vel
+            optio sequi nobis blanditiis non. Corrupti mollitia debitis et
+            praesentium. Voluptates ab dolor harum ullam, illo, consequatur
+            ducimus, porro provident veniam corporis eaque? Odio ratione ut
+            alias dolorem atque magnam natus aut quaerat sit esse minima nam,
+            explicabo error? Iste, quidem odio. Voluptatum facilis nemo,
+            deserunt rerum rem amet aperiam blanditiis voluptatem modi?
+          </p>
+        </article>
+        <article>
+          <h3>Projet 2</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Consequuntur at excepturi provident repudiandae nemo sequi veniam.
+            Officiis repellat beatae, quaerat enim quis quia? Doloribus odit
+            consectetur temporibus, dolores deleniti nisi?
+          </p>
+        </article>
+        <article>
+          <h3>Projet 3</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Consequuntur at excepturi provident repudiandae nemo sequi veniam.
+            Officiis repellat beatae, quaerat enim quis quia? Doloribus odit
+            consectetur temporibus, dolores deleniti nisi?
+          </p>
+        </article>
       </section>
       <section>
-        <h2>Skills</h2>
-      </section>
-      <section>
-        <h2>Contact</h2>
+        <h2 id="contact">Contact</h2>
+        <form action="contact">
+          <div>
+            <label for="name">What's your name ? </label>
+            <input type="text" name="name" id="name" required />
+          </div>
+          <div>
+            <label for="mail">What's your Email?</label>
+            <input type="text" name="mail" id="mail" required />
+          </div>
+          <div>
+            <label for="description">Tell me your message</label>
+            <input type="text" name="description" id="descritpion" required />
+          </div>
+        </form>
+        <button class="button-19">
+          <a href="mailto:megane.authemayou@gmail.com">Contact me directly</a>
+        </button>
       </section>
     </main>
-    <footer><p>&copy 2024 Mégane AUTHEMAYOU</p></footer>
+    <footer>
+      <a href=""><img src="" alt="" /></a>
+
+      <p>&copy 2024 Mégane AUTHEMAYOU</p>
+    </footer>
   </body>
 </html>
